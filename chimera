@@ -1,0 +1,72 @@
+  // my funny edit of the discord bot
+const Discord = require("discord.js")
+const client = new Discord.Client({intents:["GUILDS","GUILD_MESSAGES"]})
+const suffix = *;
+
+
+client.on("ready", () =>
+    {console.log(`doom ${client.user.tag}!`)})
+
+client.on("messageCreate", (msg) =>
+{
+    if (msg.content === "Hey Alex guess what")
+     {
+    msg.create("You're brappin");
+  }
+  if (msg.content === reactions?=false)
+    {
+        msg.react('smiling_imp')};
+    }
+})
+if (mention.startsWith('<@') && mention.endsWith('>')) {
+mention = mention.slice(2, -1);
+
+if (mention.startsWith('!')) {
+mention = mention.slice(1);
+}
+
+return client.users.cache.get(mention);
+}
+
+client.login("")
+    msg.create("You're brappin");
+ }
+ 
+//add loginherealex
+client.login("")
+
+On Wed, Feb 23, 2022 at 12:04 PM Alexander Peczon <26pecale@efcps.net> wrote:
+  // my funny edit of the discord bot
+const Discord = require("discord.js")
+const client = new Discord.Client({intents:["GUILDS","GUILD_MESSAGES"]})
+
+client.on("ready", () => {console.log(`doom ${client.user.tag}!`)})
+client.on("messageCreate", (msg) =>
+{
+  if (msg.content === "Hey Alex guess what")
+  {
+    msg.create("You're brappin");
+  }
+  
+ if (msg.content === "Please stop hittin my child in the head with a metal pipe")
+    {
+        msg.react('smiling_imp')};
+    }
+//deleting out the const on emoji for now because a emoji function would be more efficient if it had its own argument
+})
+if (mention.startsWith('<@') && mention.endsWith('>')) 
+{
+    mention = mention.slice(2, -1);
+
+if (mention.startsWith('!')) {
+mention = mention.slice(1);
+    }
+    return client.users.cache.get(mention);
+    }
+
+client.login("")
+    msg.create("You're brappin");
+ }
+ 
+//add loginherealex
+client.login("")
